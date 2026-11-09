@@ -1,0 +1,22 @@
+{
+  "name": "gym-membership-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Gym Membership Management System for Hackathons",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "vite",
+    "express",
+    "mongodb",
+    "gym-management"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+

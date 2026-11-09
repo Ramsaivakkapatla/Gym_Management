@@ -1,0 +1,203 @@
+{
+  "admins": [
+    {
+      "_id": "admin_001",
+      "name": "Gym Administrator",
+      "email": "admin@gym.com",
+      "password": "$2b$10$SYAl2yI4Cf959DANNSYrKuDBofU0fDQJ/fpaTJ/PcDELzP7h6COiq",
+      "role": "admin",
+      "createdAt": "2026-11-09T10:15:02.668Z"
+    }
+  ],
+  "members": [
+    {
+      "_id": "mem_1794221003587",
+      "memberId": "MBR-1004",
+      "name": "RaviTeja",
+      "email": "raviteja@gmail.com",
+      "phone": "7739450398",
+      "gender": "Male",
+      "dob": "2007-02-02",
+      "address": "Chatparru road, Np raju colony, Near Ambedkar Statue,2nd Street",
+      "isActive": true,
+      "createdAt": "2026-11-09T10:43:23.587Z",
+      "updatedAt": "2026-11-09T10:45:34.295Z"
+    },
+    {
+      "_id": "mem_001",
+      "memberId": "MBR-1001",
+      "name": "Alex Johnson",
+      "email": "alex.j@example.com",
+      "phone": "9876543210",
+      "gender": "Male",
+      "dob": "1995-05-15",
+      "address": "123 Baker Street, City Center",
+      "isActive": true,
+      "createdAt": "2026-10-10T10:15:02.669Z"
+    },
+    {
+      "_id": "mem_002",
+      "memberId": "MBR-1002",
+      "name": "Sarah Connor",
+      "email": "sarah.c@example.com",
+      "phone": "9123456780",
+      "gender": "Female",
+      "dob": "1998-11-20",
+      "address": "456 Highland Ave, Westside",
+      "isActive": true,
+      "createdAt": "2026-08-11T10:15:02.669Z"
+    },
+    {
+      "_id": "mem_003",
+      "memberId": "MBR-1003",
+      "name": "David Miller",
+      "email": "david.m@example.com",
+      "phone": "9456123789",
+      "gender": "Male",
+      "dob": "1992-03-10",
+      "address": "789 Sunset Blvd, Downtown",
+      "isActive": true,
+      "createdAt": "2026-11-09T10:15:02.669Z"
+    }
+  ],
+  "plans": [
+    {
+      "_id": "plan_001",
+      "name": "Monthly Standard",
+      "durationMonths": 1,
+      "price": 99,
+      "description": "Full gym floor access with cardio and weight training for 1 month.",
+      "isActive": true,
+      "createdAt": "2026-11-09T10:15:02.669Z",
+      "updatedAt": "2026-11-09T10:38:45.407Z"
+    },
+    {
+      "_id": "plan_002",
+      "name": "Quarterly Fitness",
+      "durationMonths": 3,
+      "price": 135,
+      "description": "Quarterly membership including locker room and steam bath access.",
+      "isActive": true,
+      "createdAt": "2026-11-09T10:15:02.669Z"
+    },
+    {
+      "_id": "plan_003",
+      "name": "Half-Year Elite",
+      "durationMonths": 6,
+      "price": 250,
+      "description": "6 months full access with weekend group fitness sessions.",
+      "isActive": true,
+      "createdAt": "2026-11-09T10:15:02.669Z"
+    },
+    {
+      "_id": "plan_004",
+      "name": "Annual VIP Pro",
+      "durationMonths": 12,
+      "price": 450,
+      "description": "Complete 365-day all-access membership with maximum savings.",
+      "isActive": true,
+      "createdAt": "2026-11-09T10:15:02.669Z"
+    }
+  ],
+  "memberships": [
+    {
+      "_id": "ms_1794221023393",
+      "member": {
+        "_id": "mem_1794221003587",
+        "memberId": "MBR-1004",
+        "name": "RaviTeja",
+        "email": "raviteja@gmail.com",
+        "phone": "7739450398",
+        "gender": "Male",
+        "dob": "2007-02-02",
+        "address": "Chatparru, Np raju colony, 2nd Street",
+        "isActive": true,
+        "createdAt": "2026-11-09T10:43:23.587Z"
+      },
+      "plan": {
+        "_id": "plan_001",
+        "name": "Monthly Standard",
+        "durationMonths": 1,
+        "price": 99,
+        "description": "Full gym floor access with cardio and weight training for 1 month.",
+        "isActive": true,
+        "createdAt": "2026-11-09T10:15:02.669Z",
+        "updatedAt": "2026-11-09T10:38:45.407Z"
+      },
+      "planSnapshot": {
+        "name": "Monthly Standard",
+        "durationMonths": 1,
+        "price": 99
+      },
+      "startDate": "2026-11-09T00:00:00.000Z",
+      "expiryDate": "2026-12-09T00:00:00.000Z",
+      "createdAt": "2026-11-09T10:43:43.393Z"
+    },
+    {
+      "_id": "ms_001",
+      "member": {
+        "_id": "mem_001",
+        "memberId": "MBR-1001",
+        "name": "Alex Johnson",
+        "email": "alex.j@example.com",
+        "phone": "9876543210",
+        "gender": "Male",
+        "dob": "1995-05-15",
+        "address": "123 Baker Street, City Center",
+        "isActive": true,
+        "createdAt": "2026-10-10T10:15:02.669Z"
+      },
+      "plan": {
+        "_id": "plan_004",
+        "name": "Annual VIP Pro",
+        "durationMonths": 12,
+        "price": 450,
+        "description": "Complete 365-day all-access membership with maximum savings.",
+        "isActive": true,
+        "createdAt": "2026-11-09T10:15:02.669Z"
+      },
+      "planSnapshot": {
+        "name": "Annual VIP Pro",
+        "durationMonths": 12,
+        "price": 450
+      },
+      "startDate": "2026-11-09T00:00:00.000Z",
+      "expiryDate": "2027-11-09T00:00:00.000Z",
+      "createdAt": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "_id": "ms_002",
+      "member": {
+        "_id": "mem_002",
+        "memberId": "MBR-1002",
+        "name": "Sarah Connor",
+        "email": "sarah.c@example.com",
+        "phone": "9123456780",
+        "gender": "Female",
+        "dob": "1998-11-20",
+        "address": "456 Highland Ave, Westside",
+        "isActive": true,
+        "createdAt": "2026-08-11T10:15:02.669Z"
+      },
+      "plan": {
+        "_id": "plan_001",
+        "name": "Monthly Standard",
+        "durationMonths": 1,
+        "price": 50,
+        "description": "Full gym floor access with cardio and weight training for 1 month.",
+        "isActive": true,
+        "createdAt": "2026-11-09T10:15:02.669Z"
+      },
+      "planSnapshot": {
+        "name": "Monthly Standard",
+        "durationMonths": 1,
+        "price": 50
+      },
+      "startDate": "2026-08-09T00:00:00.000Z",
+      "expiryDate": "2026-09-09T00:00:00.000Z",
+      "createdAt": "2026-08-09T00:00:00.000Z"
+    }
+  ],
+  "renewals": [],
+  "updatedAt": "2026-11-09T10:45:34.299Z"
+}
